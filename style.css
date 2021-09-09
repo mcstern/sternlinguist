@@ -1,0 +1,172 @@
+
+body { 
+    
+    transition: all 0.3s ease;
+}
+
+
+
+header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    max-width: 530px;
+  
+}
+
+header .title {
+  
+  padding-bottom: 20px;
+}
+header h1 {
+    
+    margin: 0;
+    padding: 0;
+    font-size: 150px;
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    line-height: .75;
+    max-width: 800px;
+   
+} 
+
+header h3 {
+    padding: 0;
+    margin-top: -10px;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 300;
+    line-height: .75;
+    max-width: 500px;
+    
+}
+
+header .home { 
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: black; 
+}
+
+
+nav {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 200;
+    max-width:475px;
+    justify-content: center;
+    padding-bottom: 0px;
+    
+}
+
+nav a {
+    text-decoration: none; 
+    font-family: 'Inter', sans-serif;
+    color: black; 
+    font-weight: 400;
+    margin-right: 40px;
+    
+}
+
+nav a:hover {
+    color: #A9AAF0;
+    transition: .5s;
+}
+
+
+
+.container {
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    
+   
+}
+
+.info { 
+    padding-right: 20px;
+    margin: 0;
+    margin-top: 20px;
+    max-width: 365px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.4;
+   
+    
+}
+.michael {
+   
+    max-width: 300px;
+    padding-top: 28px;
+    
+} 
+
+
+.BodyWrapper {
+    position: absolute;
+    margin-left: 50px;
+
+    
+} 
+
+.findings {
+    padding-right: 20px;
+    margin: 0;
+    margin-top: 20px;
+    max-width: 700px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+
+
+
+
+
+@media (max-width: 520px) {
+
+    body {
+        max-width: 520px; 
+        margin-left: 10px;
+        
+    }
+    
+    header h1 { 
+        font-size: 80px;
+    }
+    
+    header h3 {
+        font-size: 20px;
+        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .container {
+    flex-direction: column-reverse;
+    
+    }
+
+    .michael {
+       width: 100%;
+       padding-top: 0px;
+    }
+
+    .BodyWrapper
+        { 
+            margin-left: 15px;
+        }
+
+    
+    
+    }
+
+    
