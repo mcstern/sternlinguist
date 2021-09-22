@@ -24,7 +24,7 @@ const resize = () => {
   resize();
 
 //chinese characters - taken from the unicode charset
-var chinese = "bptdʈɖcɟkɡqɢʔiyɨʉɯű˥̌˩˥˥˩̂˦́ʊʏɪɴŋɲɳnɱmʙⱱrɾɽʀeøɘɵɤō˧᷄˦˥˩˨᷅˨̀əɦhʕħʁχɣxʝçʐʂʒʃzsðθvfβɸʋɹɻjɰɛœɜɞʌɔ̏˩᷈˧˦˧↗↓ɐæɫʟʎɭlɮɬƥɓƭɗƈʄƙɠʛʠaɶɑɒ↑↘μσωφ‿.‖|ˌˈ̆ˑː∅ǂǃǁǀʘʍwɥʜʢʡɕʑɧɺʦʣʧʤʨʥɚɝ";
+var chinese = "bptdʈɖcɟkɡqɢʔiyɨʉɯʊʏɪɴŋɲɳnɱmʙⱱrɾɽʀeøɘɵɤəɦhʕħʁχɣxʝçʐʂʒʃzsðθvfβɸʋɹɻjɰɛœɜɞʌɔɐæɫʟʎɭlɮɬƥɓƭɗƈʄƙɠʛʠaɶɑɒμσωφ∅ǂǃǁǀʘʍwɥʜʢʡɕʑɧɺʦʣʧʤʨʥɚɝ";
 //converting the string into an array of single characters
 chinese = chinese.split("");
 
