@@ -97,6 +97,11 @@ nav a:hover {
    
     
 }
+
+img {
+    align-self: center; 
+}
+
 .michael {
    
     max-width: 300px;
