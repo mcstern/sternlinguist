@@ -100,9 +100,9 @@ nav a:hover {
 .michael {
    
     max-width: 300px;
+    max-height:auto
     padding-top: 28px;
-    align-self: center;
-    
+   :    
 } 
 
 
